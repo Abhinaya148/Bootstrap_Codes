@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivery.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>My Bootstrap page</h1>
+        <p>This part is inside a .container class</p>
+        </div>
+        
+        <div class="container p-5 my-5 bg-dark text-white">
+            <h1>My first Bootstrap Page</h1>
+            <p>This container has a dark bg color and a white text and some extra padding and margins</p>
+        </div>
+    </div>
+        <div class="container p-5 my-5 bg-primary text-white">
+            <h1>My first Bootstrap Page</h1>
+            <p>This container has a blue bg color and a white text and some extra padding and margins</p>
+        </div>
+        <div class="container-sm border">.container-sm
+            <h1>My first Bootstrap Page</h1>
+        </div>
+        <div class="container-md mt-3 border">.container-md
+            <h1>My first Bootstrap Page</h1>
+        </div>
+        <div class="container-lg mt-3 border">.container-lg
+            <h1>My first Bootstrap Page</h1>
+        </div>
+        <div class="container-xl mt-3 border">.container-xl
+            <h1>My first Bootstrap Page</h1>
+        </div>
+        <div class="container-xxl mt-3 border">.container-xxl
+            <h1>My first Bootstrap Page</h1>
+        </div>
+        <h2>h2 heading <small>secondary text</small></h2>
+        <h1 class="display-1">This is a heading with less font weight</h1>
+        <h1>this allows the text<small> to be in small </small>size</h1>
+        <h2>this <mark>highlights </mark>the text</h2>
+        <div class="container-fluid mt-3">
+        
+            
+            <div class="row">
+                <div class="col bg-primary text-white">.col</div>
+                <div class="col bg-dark text-white">.col</div>
+                <div class="col bg-primary text-white">.col</div>
+            </div>
+        </div>
+        <div class="container">
+            <p class="text-bg-muted">This text is muted</p>
+            <p class="text-bg-primary">This text is imp</p>
+            <p class="text-bg-success">This text is success</p>
+            <p class="text-bg-danger">This text is danger</p>
+        </div>
+        <table class="table table-hover table-dark">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tr class="table-primary">
+                <td>primary</td>
+                <td>Joe</td>
+                <td>joe@example.com</td>
+            </tr>
+            <tr class="table-success">
+                <td>success</td>
+                <td>Doe</td>
+                <td>Doe@example.com</td>
+            </tr>
+        </table>
+        <img src="image.jpg" class="rounded" alt="inage of nature" width="500px" height="300px">
+        <img src="image.jpg" class="rounded-circle" alt="inage of nature" width="500px" height="300px">
+        <img src="image.jpg" class="img-thumbnail" alt="inage of nature" width="200px" height="5px">
+        
+    </div>
+        <div class="alert alert-primary mt-4">
+            <strong>Primary </strong>An alert in blue color
+        </div>
+        <div class="alert alert-success">
+            <strong>Success </strong>An alert in green color
+        </div>
+        <div class="alert alert-secondary">
+            <strong>Secondary </strong>An alert for secondary
+        </div>
+        <div class="alert alert-warning">
+            <strong>Warning </strong>An alert for Warning
+        </div>
+        <div class="alert alert-info">
+            <strong>Information </strong>An alert for imp text
+        </div>
+        <div class="alert alert-danger">
+            <strong>Danger </strong>An alert for danger
+        </div>
+        <div class="alert alert-muted">
+            <strong>Muted </strong>An alert of muting text
+        </div>
+        <div class="alert alert-light">
+            <strong>Light </strong>Lorem, ipsum dolor.
+        </div>
+        <div class="alert alert-dark">
+            <strong>Dark </strong>Lorem ipsum dolor sit amet.
+        </div>
+        <div class="alert alert-primary ">
+            <strong>Primary</strong>An alert<a href="https://google.com" class="alert-link"> in blue color</a> 
+        </div>
+        <div class="alert alert-primary alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Primary </strong>An alert in blue color
+        </div>
+        <div class="container">
+            <h2>Button Styles</h2>
+            <button type="button" class="btn">Basic</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-muted">Muted</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-link">Link</button>
+        </div>
+        <!-- <div class="container mt-3">
+            <img src="image.jpg" class="float-start" alt="nature" width="350px" height="200px">
+            <img src="image.jpg" class="float-end" alt="nature" width="350px" height="200px">
+        </div> -->
+        <div class="container mt-3">
+            <h2>Button Elements</h2>
+            <a href="https://google.com" class="btn btn-success">Link Button</a>
+            <button type="button" class="btn btn-primary btn-lg">Button</button>
+            <input type="button" class="btn btn-secondary btn-md" value="Input button">
+            <input type="submit" class="btn btn-success btn-sm" value="Submit button">
+            <input type="reset" class="btn btn-warning" value="Reset button">
+            <input type="success" class="btn btn-outline-success" value="Success">
+        </div>
+        <div class="d-grid">
+            <button type="button" class="btn btn-primary btn-block">Full width button</button>
+        </div>
+        <div class="container mt-3">
+            <h2>Button states</h2>
+            <button type="button" class="btn btn-primary">Primary Button</button>
+            <button type="button" class="btn btn-primary active">Active Button</button>
+            <button type="button" class="btn btn-primary disabled">Disable Button</button>
+            <a href="#" class="btn btn-primary disabled">Disabled Link</a>
+        </div>
+        
+
+        <div class="container mt-3">
+            <h2>Spinner Buttons</h2>
+            <button class="btn btn-primary">
+                <span class="spinner-border spinner-border-sm"></span> 
+            </button>
+            <button class="btn btn-success">
+                <span class="spinner-border spinner-border-sm"></span>
+                Loading..
+            </button>
+            <button class="btn btn-primary disabled">
+                <span class="spinner-border spinner-border-sm"></span>
+                Loading..
+            </button>
+            <button class="btn btn-primary disabled">
+                <span class="spinner-grow spinner-grow-xxl bg-dark"></span>
+                Loading....
+            </button>
+        </div>
+        <div class="container mt-3">
+            <h2>Button groups</h2>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-success">Mango</button>
+            <button type="button" class="btn btn-secondary">orange</button>
+        </div>
+        
+    </div>
+    <div class="container mt-3">
+        <div class="btn-group btn-group-lg">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-success">Mango</button>
+            <button type="button" class="btn btn-secondary">orange</button>
+        </div>
+        
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-success">Mango</button>
+            <button type="button" class="btn btn-secondary">orange</button>
+        </div>
+        
+    </div>
+    <div class="container mt-3">
+        <h2>Nesting buttons</h2>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-success">Mango</button>
+            <button type="button" class="btn btn-secondary">orange</button>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Apple</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                    <li><a class="dropdown-item" href="#">Mobile</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div><br><br>
+    <div class="container mt-3">
+        <h2>Badges</h2>
+        <h3>This is Bootstrap <span class="badge bg-primary"> class</span></h3>
+        <h2>This is Bootstrap <span class="badge bg-success"> class</span></h2>
+        <h3>This is Bootstrap <span class="badge rounded-pill bg-warning"> class</span></h3>
+    </div>
+    <div class="container mt-3">
+        <h2>Badges inside a element</h2>
+        <button type="button" class="btn btn-primary">Messages <span class="badge bg-warning">23</span></button>
+        <button type="button" class="btn btn-primary">Notifications <span class="badge bg-warning">43</span></button>
+    </div>
+    <div class="progress mt-3" style="height: 20px">
+        <div class="progress-bar" style="width: 40%;"></div>
+    </div>
+    <div class="progress mt-3" style="height: 10px">
+        <div class="progress-bar bg-warning" style="width: 70%;"></div>
+    </div>
+    <div class="progress mt-3" style="height: 10px">
+        <div class="progress-bar bg-danger progress-bar-striped" style="width: 70%;"></div>
+    </div>
+    <div class="progress mt-3" style="height: 10px">
+        <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 70%;"></div>
+
+</div>
+<div class="progress mt-3" style="height: 10px">
+    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 50%;"></div>
+    <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" style="width: 30%;"></div>
+    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 20%;"></div>
+    </div>
+    <div class="container mt-3">
+        <h2>Colored spinners</h2>
+        <div class="spinner-border text-success"></div>
+        <div class="spinner-border text-primary">Algebra</div>
+        <div class="spinner-border text-secondary"></div>
+        <div class="spinner-border text-info"></div>
+        <div class="spinner-grow text-warning"></div>
+        <div class="spinner-grow text-danger"></div>
+    </div>
+    <div class="container mt-3">
+        <h2>Pagination</h2>
+        <ul class="pagination">
+            <li class="page-item "><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item "><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </div>
+    <div class="container mt-3">
+        <h2>Pagination</h2>
+        <ul class="pagination pagination-lg">
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+
+        <ul class="pagination justify-content-end">
+            <li class="page-item "><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item "><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+
+        </ul>
+        <h2>Breadcrumb</h2>
+        <ul class="breadcrumb">
+            <li  class="breadcrumb-item"><a href="#">Photos</a></li>
+            <li class="breadcrumb-item"><a href="#">Documents</a></li>
+            <li class="breadcrumb-item"><a href="#">Links</a></li>
+        </ul>
+        <h2>List groups</h2>
+        <ul class="list-group">
+            <li class="list-group-item">First Item</li>
+            <li class="list-group-item active">Second Item</li>
+            <li class="list-group-item">Third Item</li>
+        </ul>
+        <h2>List group Items</h2>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-action">First Item</li>
+            <li class="list-group-item disabled">Second Item</li>
+            <li class="list-group-item list-group-item-action">Third Item</li>
+        </ul>
+        <h2>List group Items flush with numbering</h2>
+        <ol class="list-group list-group-numbered list-group-flush">
+            <li class="list-group-item list-group-item-action">First Item</li>
+            <li class="list-group-item disabled">Second Item</li>
+            <li class="list-group-item list-group-item-action">Third Item</li>
+        </ol>
+        <h2>Horizontal Lists</h2>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">First Item</li>
+            <li class="list-group-item">Second Item</li>
+            <li class="list-group-item">Third Item</li>
+        </ul>
+        <br>
+        <ul class="list-group ">
+            <li class="list-group-item list-group-item-success">First Item<span class="badge bg-primary rounded-pill">12</span></li>
+            <li class="list-group-item list-group-item-secondary">Second Item</li>
+            <li class="list-group-item list-group-item-primary">Third Item</li>
+            <li class="list-group-item list-group-item-info">Fourth Item</li>
+            <li class="list-group-item list-group-item-dark">Fifth Item</li>
+            <li class="list-group-item list-group-item-warning">Sixth Item</li>
+            <li class="list-group-item list-group-item-danger">Seventh Item</li>
+        </ul>
+        <br>
+        <h2>Cards</h2>
+        <div class="card">
+            <div class="card-body">Basic card</div>
+        </div>
+        <br>
+        <div class="card">
+            <div class="card-header">Header card</div>
+            <div class="card-body">Content card</div>
+            <div class="card-footer">Footer card</div>
+        </div>
+        <h2>Cards with colors</h2>
+        <div class="card bg-primary">
+            <div class="card-header">Header card</div>
+            </div><br>
+            <div class="card bg-danger">
+            <div class="card-body">Content card</div>
+        </div><br>
+        <div class="card bg-warning">
+            <div class="card-footer">Footer card</div>
+        </div><br>
+    </div>
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Asserts</button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Link 1</a></li>
+            <li><a class="dropdown-item" href="#">Link 2</a></li>
+            <li><a class="dropdown-item" href="#">Link 3</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Link 4</a></li>
+        </ul>
+    </div>
+    <div class="container mt-3">
+        <h2>Simple Collapsible</h2>
+        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+        <div id="demo" class="collapse">
+            L']                                                                                                                                                                                                                                                                                                                  orem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga totam a voluptatum nam rerum ipsum blanditiis assumenda tempora magnam.
+        </div>
+    </div>
+    <div class="container mt-3">
+        <h2>Nav</h2>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Feedback</a>
+            </li>
+        </ul>
+    </div>
+<br>
+<br>
+<br>
+</body>
+</html>
